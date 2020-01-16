@@ -32,6 +32,7 @@ export default function reducer(statePart = [], action = {}) {
         ...statePart,
         searchPhrase: action.payload,
       };
+    // TODO - handle other action types
     case CHANGE_DURATION:
       return {
         ...statePart,
@@ -55,7 +56,6 @@ export default function reducer(statePart = [], action = {}) {
           ...statePart.tags.filter(tag => tag != action.payload.tag),
         ],
       };
-    // TODO - handle other action types
     default:
       return statePart;
   }
