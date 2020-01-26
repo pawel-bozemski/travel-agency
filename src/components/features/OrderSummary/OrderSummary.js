@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 
 
 const OrderSummary = (props) => (
-  <h2 className={styles.component}>Total <strong>${calculateTotal(formatPrice(props.cost), props.options)}</strong></h2>
+  <h2 className={styles.component}>Total <strong>$ {calculateTotal(formatPrice(props.cost), props.options).toFixed(2)}</strong></h2>
 );
 
 OrderSummary.propTypes = {
