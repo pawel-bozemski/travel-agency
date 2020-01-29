@@ -169,7 +169,7 @@ describe('Component OrderOption', () => {
         /* test for date */
         case 'date': {
 
-          it('contains datePicker andshould run setOrderOption function on datechange', () => {
+          it('contains datePicker and should run setOrderOption function on datechange', () => {
             const datepicker = renderedSubcomponent.find(DatePicker);
             expect(datepicker.length).toBe(1);
 
