@@ -8,7 +8,7 @@ describe('Component TripSummary', () => {
     const expectedURL = 'abc';
     const component = shallow(<TripSummary id={expectedURL} tags={[]} />);
     expect(component.find('.link').prop('to')).toEqual(`/trip/${expectedURL}`);
-    console.log(component.debug());
+    // console.log(component.debug());
   });
 
   it('should render images', () => {
