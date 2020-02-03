@@ -6,19 +6,9 @@ import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 import PropTypes from 'prop-types';
 
 class OrderOptionDate extends React.Component {
-  // state = {
-  //   startDate: new Date(),
-  // };
-
-  // handleChange = date => {
-  //   this.setState({
-  //     startDate: date,
-  //   });
-  // };
 
   render() {
     const { currentValue, setOptionValue } = this.props;
-    console.log('currentValue', currentValue);
 
     return (
       <DatePicker

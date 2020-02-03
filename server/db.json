@@ -45,6 +45,90 @@
       "start-date": "2020-02-15T23:00:00.000Z",
       "totalCost": "$55,181",
       "id": 3
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$51,381",
+      "tripName": "5cc1d10130dfa407e2e54e20",
+      "id": 4
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$51,381",
+      "tripName": "5cc1d10130dfa407e2e54e20",
+      "id": 5
+    },
+    {
+      "car-rental": "suv",
+      "accommodation": "hotel",
+      "features": [
+        "security"
+      ],
+      "adults": 1,
+      "children": 0,
+      "name": "222",
+      "contact": "1",
+      "start-date": "2020-01-01T23:00:00.000Z",
+      "totalCost": "$53,581",
+      "tripName": "5cc1d10130dfa407e2e54e20",
+      "id": 6
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$51,381",
+      "tripName": "5cc1d10130dfa407e2e54e20",
+      "id": 7
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "suite",
+      "features": [
+        "all-inclusive",
+        "kitchen"
+      ],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "2",
+      "start-date": "",
+      "totalCost": "$52,881",
+      "tripName": "5cc1d10130dfa407e2e54e20",
+      "id": 8
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$51,381",
+      "tripName": "5cc1d10130dfa407e2e54e20",
+      "countryCode": "TUR",
+      "id": 9
     }
   ]
 }
