@@ -14,6 +14,13 @@ class HappyHourAd extends React.Component {
     return Math.round((nextNoon.getTime() - currentTime.getTime())/1000);
   }
 
+  constructor(){
+    super();
+
+    /* run this.forceUpdate() every second */
+    setInterval(() => {this.forceUpdate();}, 1000);
+  }
+
   render(){
     return(
       <div>
