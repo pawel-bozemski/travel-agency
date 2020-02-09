@@ -9,6 +9,7 @@ const select = {
 
 const mockProps = {
   title: 'Happy Hour',
+  promoDescription: 'Promotion time',
 };
 
 describe('Component HappyHourAd', () => {
@@ -89,4 +90,10 @@ describe('Component HappyHourAd with mocked Date and delay', () => {
   checkDescriptionAfterTime('11:57:58', 2, '120');
   checkDescriptionAfterTime('11:59:58', 1, '1');
   checkDescriptionAfterTime('13:00:00', 60 * 60, 22 * 60 * 60 + '');
+});
+
+describe('Component HappyHourAd with mocked Date while promo', () => {
+  checkDescriptionAtTime('12:00:00', mockProps.promoDescription);
+  checkDescriptionAtTime('12:30:00', mockProps.promoDescription);
+  checkDescriptionAtTime('12:59:59', mockProps.promoDescription);
 });
