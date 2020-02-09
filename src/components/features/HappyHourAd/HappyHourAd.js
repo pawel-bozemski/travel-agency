@@ -30,7 +30,7 @@ class HappyHourAd extends React.Component {
     return(
       <div>
         <h3 className='title'>Happy Hour</h3>
-        {/* 23 * 60 * 60 = 82800 */}
+        {/* 23h * 60 * 60 = 82800s */}
         {/* if(happyHour > 82800 ) {this.props.promoDescription} else {happyHour} */}
         <div className='promoDescription'>{happyHour > 82800 ? this.props.promoDescription : happyHour}</div>
       </div>
