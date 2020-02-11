@@ -63,9 +63,9 @@ describe('Component DaysToSummer with mocked date', () => {
   checkSummerDate('2019-09-23', 'It is summer time, take a break from work and see world :)');
 
   //after summer 23.09 <
-  checkSummerDate('2019-09-24', '95 days to summer');
-  checkSummerDate('2019-10-21', '122 days to summer');
-  checkSummerDate('2019-12-20', '182 days to summer');
+  checkSummerDate('2019-09-24', '271 days to summer');
+  checkSummerDate('2019-10-21', '244 days to summer');
+  checkSummerDate('2019-12-20', '184 days to summer');
 
 });
 
